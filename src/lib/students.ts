@@ -1,0 +1,58 @@
+import { Student } from "@/types/student";
+
+export const students: Student[] = [
+  {
+    id: 1,
+    name: "Rahul Sharma",
+    email: "rahul@example.com",
+    department: "CSE",
+    semester: 2,
+    status: "Active",
+    attendance: 92,
+  },
+  {
+    id: 2,
+    name: "Priya Das",
+    email: "priya@example.com",
+    department: "ECE",
+    semester: 2,
+    status: "Active",
+    attendance: 88,
+  },
+  {
+    id: 3,
+    name: "Amit Roy",
+    email: "amit@example.com",
+    department: "EE",
+    semester: 4,
+    status: "Inactive",
+    attendance: 65,
+  },
+  {
+    id: 4,
+    name: "Sneha Gupta",
+    email: "sneha@example.com",
+    department: "ECE",
+    semester: 2,
+    status: "Active",
+    attendance: 95,
+  },
+  {
+    id: 5,
+    name: "Arjun Singh",
+    email: "arjun@example.com",
+    department: "ME",
+    semester: 6,
+    status: "Active",
+    attendance: 78,
+  },
+  {
+    id: 6,
+    name: "Ananya Sen",
+    email: "ananya@example.com",
+    department: "CSE",
+    semester: 4,
+    status: "Active",
+    attendance: 84,
+  },
+];
