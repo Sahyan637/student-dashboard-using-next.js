@@ -1,4 +1,4 @@
-import { Student } from "@/types/student";
+import type { Student } from "@/types/student";
 
 export default function StudentTable({ data }: { data: Student[] }) {
   return (

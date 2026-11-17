@@ -5,9 +5,11 @@ import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
   Users,
+  UserRoundPen,
   Settings,
   GraduationCap,
   X,
+  LibraryBig,
 } from "lucide-react";
 
 const menuItems = [
@@ -17,9 +19,24 @@ const menuItems = [
     icon: LayoutDashboard,
   },
   {
-    name: "Students",
+    name: "Student List",
     href: "/dashboard/students",
     icon: Users,
+  },
+  {
+    name: "Teacher List",
+    href: "/dashboard/teachers",
+    icon: UserRoundPen,
+  },
+  {
+    name: "All Courses",
+    href: "/dashboard/courses",
+    icon: GraduationCap,
+  },
+  {
+    name: "Library",
+    href: "/dashboard/library",
+    icon: LibraryBig,
   },
   {
     name: "Settings",
